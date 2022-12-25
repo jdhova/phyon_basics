@@ -16,8 +16,10 @@ $ jupyter notebook
 
  ```
 
- ### LIST SETS AND TUPLES
+ ### LIST SETS TUPLES AND DICTIONARIES
 
+
+#### LIST
  ```
 mylist = ['juud','cole']
 mylist2 = [3,4,5]
@@ -33,7 +35,7 @@ mylist4 = [4,3,5,5,5,5]
 print(len(mylist4)) // 6  counts all values
 
  ```
-
+### SETS
   ```
 mysets = {'juud','cole'}
 sets = {2,3,4}
@@ -43,6 +45,27 @@ print(mysets,sets2)  //  {'cole','juud'} {2,3,4} Automatically arranges in order
 
 sets2 = {4,3,2,2,2,2,2,2,2,2,2,2}
 
+print(sets2 == sets)  //true
+
 print(len(set3))  //3 delets repeted values
+
+ ```
+ #### TUPLES
+ ```
+my_turple = (1,2,3)
+my_turple2 = (3,2,1)
+my_turple == my_turple2  //false These are similar to lists just you canr append() better for optimization and memory alocation and its faster
+
+ ```
+### Dictionaries
+ ```
+
+person = {
+  'fname':'jude',
+ 'lname':'ik',
+  'age': 20
+}
+
+print(person['age'])
 
  ```
