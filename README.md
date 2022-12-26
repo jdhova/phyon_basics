@@ -8,6 +8,12 @@ http://localhost:8888/tree
  ```
  https://stackoverflow.com/questions/62255762/jupyter-is-not-recognized-as-an-internal-or-external-command-operable-program  
 
+ https://replit.com/@JudeOkagu1/CodeInBlack#index.js
+
+ https://onecompiler.com/python2/3ysyk2cfv
+
+
+
  $ py -m notebook
 Otherwise
 
