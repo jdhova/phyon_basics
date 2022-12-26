@@ -19,7 +19,7 @@ $ jupyter notebook
  ### LIST SETS TUPLES AND DICTIONARIES
 
 
-#### LIST
+### LIST
  ```
 mylist = ['juud','cole']
 mylist2 = [3,4,5]
@@ -50,7 +50,7 @@ print(sets2 == sets)  //true
 print(len(set3))  //3 delets repeted values
 
  ```
- #### TUPLES
+ ### TUPLES
  ```
 my_turple = (1,2,3)
 my_turple2 = (3,2,1)
@@ -65,7 +65,101 @@ person = {
  'lname':'ik',
   'age': 20
 }
+person = {
+  'fname':'jude',
+ 'lname':'ik',
+  'age': 25
+}
 
-print(person['age'])
+print(person['age']) // 25
+
+ ```
+### Operators
+ ```
+true and true is true
+true and false is true
+true or false is true
+false or false is false 
+not true is false 
+not false is true
+
+1 in [1,2,3]  // true
+
+ ```
+### If Else Statment syntax
+#### true and false give error should be True or False 
+#### if a = true also gives error
+
+ ```
+
+a = True
+b = True
+c = False
+
+if a:
+      print('Is It Snowing')
+      if b: 
+        print('yes')
+        if c:
+          print('Summer on the way')
+else:
+    print('its hot')
+
+
+ ```
+
+### Loops
+
+#### for Loops needs a list to loop from  good for strings
+
+
+ ```
+a = [1,2,3,4,5,6]
+
+for n in a:
+  print(n)
+
+#### while loops is based on a condision does not need a list to loop from  example countdown
+a = 0
+while a < 7 :
+    print (a)
+    a+=2
+    // a = a + 2
+
+
+ ```
+### Functions
+
+ ```
+s = 30
+def mult(n) :
+  n * 20
+  
+mult(s)
+
+ ```
+ ### Classes
+
+ ```
+
+class Persons:
+    def __init__(person, name):
+        person.name = name
+        person.legs = 4
+    
+    def details(person):
+        print(person.name + ' is a man!')
+    
+    def details2(person):
+      print(person.name + ' is a woman!')
+        
+        
+  
+my_friend = Persons('Jude')
+my_wife = Persons('Ego Oyibo')
+
+my_friend.details()
+my_wife.details2()
+
 
  ```
