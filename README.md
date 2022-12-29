@@ -25,7 +25,7 @@ $ jupyter notebook
  ### LIST SETS TUPLES AND DICTIONARIES
 
 
-### LIST
+### LIST list are also inbult functions check below
  ```
 mylist = ['juud','cole']
 mylist2 = [3,4,5]
@@ -41,7 +41,7 @@ mylist4 = [4,3,5,5,5,5]
 print(len(mylist4)) // 6  counts all values
 
  ```
-### SETS
+### SETS   sets are also inbuit functions like list() check below
   ```
 mysets = {'juud','cole'}
 sets = {2,3,4}
@@ -116,7 +116,7 @@ else:
 
 ### Loops
 
-#### for Loops needs a list to loop from  good for strings
+#### for Loops needs a list to loop from  good for strings range saves in variable
 
 
  ```
@@ -132,6 +132,10 @@ while a < 7 :
     a+=2
     // a = a + 2
 
+
+mylist = list(range(20))
+
+print(mylist[:: 2])
 
  ```
 ### Functions
@@ -169,3 +173,121 @@ my_wife.details2()
 
 
  ```
+ ### Formating, slicing, Multi-Line and concat Str, 
+
+ ```
+
+print(f' my age is {20}')
+
+list = [2,3,5,1,6,7]
+
+names = 'my name is jude'
+
+print(list[2:])
+
+print(names[2:])
+
+
+quote = '''
+this is my new line
+i start on one 
+and end below
+'''
+
+print(quote)
+
+ ```
+ ### copy append,pop and remove
+```
+ 
+my_list = [1,2,3,4,5]
+my_list.append(30)
+my_list.remove(3)
+while len(my_list):
+  print(my_list.pop())
+print(my_list)
+
+
+a = [1,2,3,4]
+b = a.copy()
+a=[1,2,3]
+print(b,a)
+
+```
+### Range and Slice
+
+```
+
+my_list = [1,2,3,4,5,6,7,8,9]
+
+print(my_list[3:6]) // 4,5,6
+
+print(my_list[3::2])  // 4,6,8
+
+
+mylist = list(range(20))
+
+print(mylist[:: 2])
+
+
+```
+### Challange
+
+```
+### challange create a function which accepts numbers and
+#### prints I ENJOY if number is divisible by 3 
+#### prints I  CODING if number is divisible by 5 
+#### prints I ENJOY CODING PYTHON if number is divisible by 15 
+
+### creates another function that loops tru withh range and slicing and prints same values
+
+```
+### convarting a list to a Turple (removing Duplicates)  sets and list data structures
+
+```
+my_list = [1,2,3,4,5,1,2,3,4,5]
+
+new_set = set(my_list)
+
+new_list = list(set(my_list))
+
+print(my_list)
+
+print(new_set,' is a turple')
+
+print(new_list,' is a list which works with split :: and  index []')
+
+print(new_list[0:3])
+
+
+print(new_set) 
+
+
+
+new_set.add('e')
+new_list.append('e')
+
+new_set.remove(5)
+new_list.remove(5)
+
+print(1 in new_set)
+print(1 in new_list)
+
+print(len(new_list))
+
+print(len(new_set))
+
+print('poped from list:',new_list.pop(3))
+
+new_set.discard(1)
+
+print('new set',new_set)
+print('new list',new_list)
+
+
+
+```
+
+
+
+
