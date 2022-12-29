@@ -285,8 +285,55 @@ print('new set',new_set)
 print('new list',new_list)
 
 
+Turples are non immutable cos they are more effitient and allocates exact space in memory
 
 ```
+### Dictionaries
+
+#### Challange
+
+```
+Write a Dictionary check if Dictonary has Nationality
+bades on result Add Natiinality and then  pop nationalities out after added to dictonary
+
+check if Name is in names and if so populate new name to list
+
+```
+#### Solution
+
+```
+person = {
+  'name' : ['Jude', 'James','Ann'],
+  'age' : [25,33,21],
+'occupation' : ['Dev','Nurse','Teacher']
+}
+
+
+person['name'].append('Dave')     # dding 'Dave' 
+
+if 'Nationality' not in person :
+      person['Nationality'] = []
+
+person['Nationality'].append('Canadian')
+person['Nationality'].append('Nigerian')
+person['Nationality'].append('Kenya')                 #Adding Nationality
+
+if 'name' in person:
+  person['name'].append('Ego Oyibo')                #Checking for name befre adding
+
+if 'Ego Fresh' not in person['name'] :
+    person['name'].append('Ego Fresh')
+  
+while len(person['Nationality']):
+  print('poped item',person['Nationality'].pop(0))       #Checking for len before poping
+
+
+
+print('Nationality is empty',person['Nationality'])
+print(person)
+
+```
+
 
 
 
