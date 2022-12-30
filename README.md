@@ -332,7 +332,9 @@ while len(person['Nationality']):
 print('Nationality is empty',person['Nationality'])
 print(person)
 
+from collections import defaultdict  can also be used 
 ```
+
 
 
 
