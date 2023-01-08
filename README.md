@@ -335,8 +335,24 @@ print(person)
 from collections import defaultdict  can also be used 
 ```
 
+### If ELSE 
+
+#### Fizz Buzz Statment 
+```
+for n in range(1,50):
+  if n % 15==0 :
+    print('fizz')
+  elif n % 5 ==0:
+    print('buzz')
+  elif n % 3 ==0:
+    print('fizzbuzz')
+  else:
+    print(n)
 
 
+  [ 'fizzBuzz' if n % 15 == 0 else 'Fizz' if n % 5 == 0 else 'buzz' if n % 3 == 0 else n for n in range(2,100)]
+
+```
 
 
 
