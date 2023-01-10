@@ -410,10 +410,45 @@ for value in d.values():
 
 ```
 
+### BINARY
+
+```
+
+import numpy as np
+
+ 
+
+b2 = [128, 64, 32, 16, 8, 4, 2, 1]
+on = [  0,  1,  1,  1, 1, 1, 1, 0]
+
+ 
+
+# how many bits in a byte?
+len(b2)
+
+ 
+
+b2 = np.array(b2)
+on = np.array(on)
+
+ 
+
+
+print(on)
+print(b2 * on)
+print()
+print(sum(b2 * on))
+
+```
+
+
 ### Notes
 ```
 check for values in memory between sets and lists  
 always use .copy()
+natural language
+
+make turples from turples
 ```
 
 
