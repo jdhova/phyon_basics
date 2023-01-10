@@ -62,6 +62,20 @@ my_turple = (1,2,3)
 my_turple2 = (3,2,1)
 my_turple == my_turple2  //false These are similar to lists just you canr append() better for optimization and memory alocation and its faster
 
+
+turple umpacking works also works with a collection of arrays and lists and booleons
+x=(1,2,3,4,5)
+
+a,b,c,d,e = x
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+
+
+
  ```
 ### Dictionaries
  ```
@@ -146,6 +160,17 @@ def mult(n) :
   n * 20
   
 mult(s)
+
+
+def perfomOp(num1,num2,num3,operation='sum',message='here we'):
+  # print(message)
+  if operation == 'sum':
+   print(message,operation,num1* num2 * num3)
+  if operation =='multiply':
+     # return num1 * num2 * num3
+     print(message,operation,num1* num2 * num3)
+    
+perfomOp(3,4,5,'sum')
 
  ```
  ### Classes
@@ -352,6 +377,43 @@ for n in range(1,50):
 
   [ 'fizzBuzz' if n % 15 == 0 else 'Fizz' if n % 5 == 0 else 'buzz' if n % 3 == 0 else n for n in range(2,100)]
 
+```
+### FOR LOOPS
+
+```
+
+d = {'apple': 1, 'banana': 2, 'orange': 3}
+
+for key,value in d.items():
+  print('the key is',key, 'the value is',value)
+
+
+for key in d:
+  print(key, d[key])
+
+
+  for key in d.keys():
+  print(key)
+
+# Output:
+# apple
+# banana
+# orange
+
+for value in d.values():
+  print(value)
+
+# Output:
+# 1
+# 2
+# 3
+
+```
+
+### Notes
+```
+check for values in memory between sets and lists  
+always use .copy()
 ```
 
 
