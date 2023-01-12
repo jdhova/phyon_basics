@@ -449,6 +449,7 @@ always use .copy()
 natural language
 
 make turples from turples
+SSIS DTS means Data Transformation Services
 ```
 
 
