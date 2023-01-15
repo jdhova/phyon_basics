@@ -441,6 +441,27 @@ print(sum(b2 * on))
 
 ```
 
+### difference between is and ==
+
+```
+a = [1,2,3,4]
+
+b = [1,2,3,5]
+
+a = b.copy()
+
+
+
+
+
+print('valofa',a)
+print('valofa',b)
+
+print(b == a)
+print(b is a)
+
+```
+
 
 ### Notes
 ```
@@ -450,6 +471,10 @@ natural language
 
 make turples from turples
 SSIS DTS means Data Transformation Services
+USE append and add in a function to mutate list and sets
+Flash reports should always compare to relative dates example energy cunsption during witer compared to another winter month not 
+comparin Summer month to winter month.
+
 ```
 
 
