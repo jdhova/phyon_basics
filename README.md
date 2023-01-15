@@ -51,7 +51,18 @@ print(mysets,sets2)  //  {'cole','juud'} {2,3,4} Automatically arranges in order
 
 sets2 = {4,3,2,2,2,2,2,2,2,2,2,2}
 
+
 print(sets2 == sets)  //true
+
+
+
+even = {12,4,6,5,7}
+odd ={1,3,5}
+
+even.intersection(odd)   5
+even^(odd)  {1, 3, 4, 6, 7, 12}
+even.union(odd) {1, 3, 4, 5, 6, 7, 12}
+even.difference(odd)  {4, 6, 7, 12}
 
 print(len(set3))  //3 delets repeted values
 
@@ -462,11 +473,15 @@ print(b is a)
 
 ```
 
-### 
+###  bitwise OR
 ```
 4 | 10
 
 ```
+
+message = 'tittle'
+message.capitalize() Tittle
+message.upper() TITTLE
 
 
 ### Notes
