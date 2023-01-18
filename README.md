@@ -207,6 +207,35 @@ my_wife = Persons('Ego Oyibo')
 my_friend.details()
 my_wife.details2()
 
+```
+
+```
+
+class Person:
+  def __init__(self, name,age,occupation) :
+        self.name = name 
+        self.age = age  
+        self.occupatopn = occupation
+
+  def salary(self):
+      return '$300,000' 
+
+  def hobby(self):
+    return 'coding'
+
+myPerson = Person('Jude',22,'Data Engineer')
+pay = myPerson.salary
+hobby = myPerson.hobby
+# hobby ='shayo'
+
+
+me,age,job,pays,hobby = (myPerson.name,myPerson.age,myPerson.occupatopn,myPerson.salary(),myPerson.hobby())
+
+
+print(f'my name is {me} and I am a young {job} at {age} and i make {pays} and my hobby is {hobby}')
+
+
+
 
  ```
  ### Formating, slicing, Multi-Line and concat Str, 
