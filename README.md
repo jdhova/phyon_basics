@@ -135,6 +135,22 @@ print("reverses a list",fruits)
 
  ```
 
+ ### Loops in List
+
+ ```
+ 
+newlist = [x for x in ['apple', 'banana', 'cherry']]
+print(newlist[2])    returns a list
+
+
+for x in ['apple', 'banana', 'cherry']:
+  print(x)   returns a different individual values
+
+```
+
+
+
+
 ### SETS   sets are also inbuit functions like list() check below
   ```
 mysets = {'juud','cole'}

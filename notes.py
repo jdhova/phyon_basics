@@ -1,10 +1,8 @@
-lister = [1,2,3,4,5,6,7,8,9,10]
-name =["James","Adam","Jack","Josh","Jacob","Jonathan","Joseph","Joshua",[1,3,4],True]
+fruits =  ['apple', 'banana', 'cherry',[2,3]]
+i = 0
 
-# print(list[1::2])
-# print(list[0:2])
-# print(list[5])
-
-print(lister.append(3))
-
-# print(y)
+while i < len(fruits):
+  yellow  = (fruits[i])
+  i+=1
+  yellow[1]
+  print(yellow[2])
