@@ -47,6 +47,26 @@ print("JS2 is " + x,y)
 
 ```
 
+### DATA TYPES
+
+```
+
+x = ["apple", "banana", "cherry"]   -- list
+
+x = ("apple", "banana", "cherry")  --tuple
+
+x = range(6)                  --range
+
+x = {"name" : "John", "age" : 36} --dict
+
+x = {"apple", "banana", "cherry"}  set
+
+x = frozenset({"apple", "banana", "cherry"})   frozenset
+
+x = bytearray(5)      bytearray
+
+```
+
  ### LIST SETS TUPLES AND DICTIONARIES
 
 
@@ -57,6 +77,7 @@ mylist2 = [3,4,5]
 mylist3 = [4,3,5]
 
 
+
 mylist3 == mylist3 //False because they need to be on order
 
 print(mylist2.append(20))  // [3,4,5,20]
@@ -64,6 +85,12 @@ print(mylist2.append(20))  // [3,4,5,20]
 
 mylist4 = [4,3,5,5,5,5]
 print(len(mylist4)) // 6  counts all values
+
+
+list = [1,2,3,4,5,6,7,8,9,10]
+print(list[1::2])
+print(list[0:2])
+print(list[5])
 
  ```
 ### SETS   sets are also inbuit functions like list() check below
