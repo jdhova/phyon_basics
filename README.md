@@ -69,8 +69,15 @@ x = bytearray(5)      bytearray
 
  ### LIST SETS TUPLES AND DICTIONARIES
 
+ ```
+ List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
+```
 
-### LIST list are also inbult functions check below
+
+### LIST list are also inbult functions check below MUTABLE
  ```
 mylist = ['juud','cole']
 mylist2 = [3,4,5]
@@ -93,6 +100,41 @@ print(list[0:2])
 print(list[5])
 
  ```
+ ### List Methods
+
+ ```
+
+fruits = ['apple', 'banana', 'cherry']
+cars = ["benz","bmw","audi","honda"]
+num = [1,2,3]
+
+fruits.append(cars)
+
+# print(fruits) ## adds an array to the end and makes it an array
+# fruits.extend(cars) 
+# print(fruits)    ## adds an array to the end and extrends the present array or y = cars + fruits 
+
+count = fruits.count('cherry') ## prints unique orrorance
+print(count)
+
+
+index = fruits.index('cherry') ## prints unique orrorance
+print(index)  ## prints the index of the element
+
+fruits.insert(1,'orange') ## inserts the element at the given index
+print(fruits)
+fruits.pop(1) ## removes the element at the given index
+print("removes pop",fruits)
+fruits.remove('apple') ## removes the element at the given index
+print("removes apple",fruits)
+fruits.sort()    
+print("sort in alphanetical order",fruits)
+fruits.reverse()
+print("reverses a list",fruits)
+
+
+ ```
+
 ### SETS   sets are also inbuit functions like list() check below
   ```
 mysets = {'juud','cole'}
