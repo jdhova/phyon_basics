@@ -22,6 +22,31 @@ $ jupyter notebook
 
  ```
 
+ ### Global Variables
+
+ ```
+ x = "awesome"
+
+def myfunc():
+  global y
+  y = "yellow"
+  print("Python is " + x,y)
+
+myfunc()
+print("Python2 is " + x,y)
+
+
+def myfunc2():
+  # global y
+  y = "yellow"
+  print("JS is " + x,y)
+
+myfunc2()
+print("JS2 is " + x,y)
+
+
+```
+
  ### LIST SETS TUPLES AND DICTIONARIES
 
 
