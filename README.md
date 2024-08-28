@@ -95,10 +95,9 @@ print(len(mylist4)) // 6  counts all values
 
 
 list = [1,2,3,4,5,6,7,8,9,10]
-print(list[1::2])
-print(list[0:2])
-print(list[5])
-
+print(list[1::2]) returns  [2, 4, 6, 8, 10]
+print(list[0:2])  returns [1, 2]
+print(list[5])    returns 6
  ```
  ### List Methods
 
@@ -130,6 +129,7 @@ print("removes apple",fruits)
 fruits.sort()    
 print("sort in alphanetical order",fruits)
 fruits.reverse()
+mylist.sort(reverse = True)  sorts in reverse order
 print("reverses a list",fruits)
 
 
@@ -147,6 +147,16 @@ for x in ['apple', 'banana', 'cherry']:
   print(x)   returns a different individual values
 
 ```
+### List Comprehensions
+
+```
+fruits = ["apple", "banana", "cherray", "kiwai", "mango"]
+newlist = [x for x in fruits if "apple" in x]
+
+print(newlist)
+
+```
+
 
 
 
@@ -385,6 +395,8 @@ print(my_list)
 
 a = [1,2,3,4]
 b = a.copy()
+or b = list(a)  
+or b = a[:]
 a=[1,2,3]
 print(b,a)
 
