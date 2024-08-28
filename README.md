@@ -189,9 +189,13 @@ print(len(set3))  //3 delets repeted values
  ```
  ### TUPLES
  ```
+
+ Turples are more like variables with different values, this can not be changed howwcer they have index.
+
+ turples can be covarted to list with lists() and convarted to tuple with tuple()
 my_turple = (1,2,3)
 my_turple2 = (3,2,1)
-my_turple == my_turple2  //false These are similar to lists just you canr append() better for optimization and memory alocation and its faster
+my_turple == my_turple2  //false These are similar to lists just you cant append() better for optimization and memory alocation and its faster
 
 
 turple umpacking works also works with a collection of arrays and lists and booleons
@@ -206,8 +210,65 @@ print(d)
 print(e)
 
 
+thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+print(thistuple[:4])  returns ('apple', 'banana', 'cherry', 'orange')
+
+tuple are immutable however we can add tuples by convarting them to lists or 
+thistuple = ("apple", "banana", "cherry")
+y = ("orange",)
+thistuple += y
+
+print(thistuple)  returns ('apple', 'banana', 'cherry', 'orange')
+
+thistuple = ("apple", "banana", "cherry")
+y = ("orange",)
+thistuple2 = thistuple + y
+
+print(thistuple2) returns ('apple', 'banana', 'cherry', 'orange')
+
+y = ("orange",) is a tuple and y = ("orange") is a string that cant be concatnated.
 
  ```
+
+ #### Loops in tuple
+
+ ```
+thistuple = ("apple", "banana", "cherry")
+i = 0
+while i < len(thistuple):
+  print(thistuple[i])
+  i = i + 1
+
+  thistuple = ("apple", "banana", "cherry")
+for x in thistuple:
+  print(x)
+
+thistuple = ("apple", "banana", "cherry")
+newlist = [ x for x in thistuple]
+print(newlist[1])
+
+
+ ```
+ #### Tuple methods
+
+ ```
+ count()  
+ counts = thistuple.count("cherry") 
+ and  index()
+ counts = thistuple.index("cherry") 
+ print(len(fruits)) counts the len
+ del mytuple delets a tuple
+
+fruits = ('apple', 'banana', 'cherry', 'mango','guava')
+(x, *y, z) = fruits
+print(y) returns ['banana', 'cherry', 'mango']
+
+we can also perform arithmetic on tuples + and *
+
+
+ ```
+
+
 ### Dictionaries
  ```
 
