@@ -99,7 +99,7 @@ print(list[1::2]) returns  [2, 4, 6, 8, 10]
 print(list[0:2])  returns [1, 2]
 print(list[5])    returns 6
  ```
- ### List Methods
+ #### List Methods
 
  ```
 
@@ -135,7 +135,7 @@ print("reverses a list",fruits)
 
  ```
 
- ### Loops in List
+ #### Loops in List
 
  ```
  
@@ -147,7 +147,7 @@ for x in ['apple', 'banana', 'cherry']:
   print(x)   returns a different individual values
 
 ```
-### List Comprehensions
+#### List Comprehensions
 
 ```
 fruits = ["apple", "banana", "cherray", "kiwai", "mango"]
