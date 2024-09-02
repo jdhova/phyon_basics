@@ -213,24 +213,29 @@ set1 = {"a", "b", "c",4,6}
 set2 = {1, 2, 3,4,5,6}
 
 set3 = set1.union(set2)
-print(set3)   Joins 2 sets and removes duplicated {'b', 1, 2, 3, 4, 5, 6, 'a', 'c'}
+print(set3)   
+##Joins 2 sets and removes duplicated {'b', 1, 2, 3, 4, 5, 6, 'a', 'c'}
 
 
 set4 = set1.intersection(set2)
-print(set4)  {4, 6} keeps common matching values
+print(set4)  
+##{4, 6} keeps common matching values
 
 set5 = set2.difference(set1)
-print(set5)   keeps the values from set2 and matching in set 1 {1, 2, 3, 5} similar to left join without common values
+print(set5) 
+## keeps the values from set2 without  matching values in set 1 {1, 2, 3, 5} similar to left join without common values
 
-set1.difference_update(set2) is the same as set1.difference(set2) but sames value in same set
-set1.difference_update(set2) set1 returns {'a', 'b', 'c'}
+##set1.difference_update(set2) is the same as set1.difference(set2) but sames value in same set
+##set1.difference_update(set2) set1 returns {'a', 'b', 'c'}
 
 
 set6 = set1.difference(set2)
-print(set6)  keeps the values from set1 and matching in set 2 {'b', 'c', 'a'}  similar to left join without common values
+print(set6)  
+##keeps the values from set1 and matching in set 2 {'b', 'c', 'a'}  similar to left join without common values
 
 set7 = set1.symmetric_difference(set2)  
-print(set7)      deletes duplicate values from 2 sets  {'b', 1, 2, 3, 5, 'c', 'a'}
+print(set7)      
+##deletes duplicate values from 2 sets  {'b', 1, 2, 3, 5, 'c', 'a'} and removed the matching values
 
  
  ```
