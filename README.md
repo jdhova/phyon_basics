@@ -77,7 +77,9 @@ Dictionary is a collection which is ordered** and changeable. No duplicate membe
 ```
 
 
-### LIST list are also inbult functions check below MUTABLE
+### LIST 
+#### list are also inbult functions check below MUTABLE
+#### LIST are Mutable, LIST allow Index, LIST Can be updated by the Index, LIST allow duplicate Values
  ```
 mylist = ['juud','cole']
 mylist2 = [3,4,5]
@@ -163,6 +165,7 @@ print(newlist)
 
 ### SETS  
 #### sets are also inbuit functions like list() check below
+#### SETS are  not mutable, SETS done allow Index, SETS can not be updated by the Index, SETS does not allow duplicate Values
   ```
   SETS are Unordered, Not indexed and they cant have duplicates and cant based on idex however we can add, update,remove and discard sets
 
@@ -206,6 +209,14 @@ del thisset delets the entire set
 
  #### SET Joins
 
+ #### The union() and update() methods joins all items from both sets.
+
+ ####  The intersection() method keeps ONLY the duplicates.
+
+ ####  The difference() method keeps the items from the first set that are not in the other set(s).
+
+ ####  The symmetric_difference() method keeps all items EXCEPT the duplicates.
+
  
  ```
 
@@ -243,6 +254,8 @@ print(set7)
 
 
  ### TUPLES
+
+ #### TUPLES are  mutable but can be updated with inxed, TUPLES dont allow Index,  TUPLES can not be updated by the Index, TUPLES does not allow duplicate Values
  ```
 
  Turples are more like variables with different values, this can not be changed howwcer they have index.
