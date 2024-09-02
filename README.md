@@ -165,7 +165,7 @@ print(newlist)
 
 ### SETS  
 #### sets are also inbuit functions like list() check below
-#### SETS are  not mutable, SETS done allow Index, SETS can not be updated by the Index, SETS does not allow duplicate Values
+#### SETS are  not mutable, SETS dont allow Index, SETS can not be updated by the Index, SETS does not allow duplicate Values
   ```
   SETS are Unordered, Not indexed and they cant have duplicates and cant based on idex however we can add, update,remove and discard sets
 
@@ -196,12 +196,41 @@ print(len(set3))  //3 delets repeted values
 
  #### SET Methods
 
+ #### SETS Methods are simlar to that of Lists asides form SETS dont have indexing so they cant Sort and doindex related methods. 
+ #### Methods in SETS can perform similar operations to that of SQL.
+
  ```
-add() adds values to set
-remove() removed value and trows error if value is not avaaiable
-discard() removed value and does not trow error if value is not avaiable
-thisset.clear() clears sets and 
-del thisset delets the entire set
+set1 = {"a", "b", "c",4,5}
+set2 = {1, 2, 3,4,5}
+
+set3 = set2.difference(set1)
+print("printing (left join - common values)",set3)
+
+set2.difference_update(set1)
+print("printing updated (left join - common values)",set2)
+
+
+set1.update("z")
+print("adding-z-",set1)
+
+set1.discard("z")
+print("removing-z-",set1)
+
+print("Updating with a string :",set1)
+set1.update(set2)
+print("Updating with a set :",set1)
+
+set4 = set1.intersection(set2)
+print("interset",set4)
+
+set1 = set2.copy()
+print("coping Set2 to Set1",set1)
+
+
+
+set1.clear()
+print("Clearing the set :",set1)
+
 
 
 
