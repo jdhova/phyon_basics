@@ -367,6 +367,7 @@ we can also perform arithmetic on tuples + and *
 
 
 ### Dictionaries
+#### A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
  ```
 
 person = {
@@ -383,6 +384,105 @@ person = {
 print(person['age']) // 25
 
  ```
+
+#### Using the dict() method to make a dictionary:
+```
+ thisdict = dict(name = "John", age = 36, country = "Norway")
+ print(thisdict)
+ ```
+ #### Loops in Dictionaries
+
+ ```
+ thisdict = {
+  "BRAND": "Ford",
+  "MODEL": "Mustang",
+  "YEAR": 1964
+}
+thisdict.update({"year": 2020})
+thisdict["color"] = "red"
+
+
+thisdict["brand"] = "BENZ"
+thisdict["model"] = "C-Class"
+print("New Dictionaty: ",thisdict)
+thisdict.pop("year")
+thisdict.popitem()
+
+print("Final Value of Dictionaty: ",thisdict)
+
+
+
+for x,y in thisdict.items():
+  print("key :",x, "Val-Pair :",y)
+  
+for x in thisdict.values():
+  print("Val-Pair :",x)
+
+  
+for x in thisdict:
+  print("Keys :",x)
+
+```
+
+#### Nested Loops in Dictionaries
+
+```
+
+myfamily = {
+  "child1" : {
+    "name" : "Lynette",
+    "year" : 2017
+  },
+  "child2" : {
+    "name" : "Jayden",
+    "year" : 2023
+  },
+  "child3" : {
+    "name" : "Mary",
+    "year" : 2024
+  }
+}
+
+for x, obj in myfamily.items():
+    print(x)
+    
+    for y in obj:
+        print(y + ':', obj[y])
+
+
+
+```
+#### Methods in Dictionaries
+
+```
+
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+keys = car.keys()
+items =  car.items()
+values = car.values()
+getval = car.get("year")
+car.update({"color": "White"})
+
+
+print("keys: ",keys)
+print("items: ",items)
+print("values: ",values)
+car.pop("model")
+car.update({"color": "White"})
+print("values model removed and color added: ",values)
+print("Get Value: ",getval)
+
+
+```
+
+
+
+
 ### Operators
  ```
 true and true is true
