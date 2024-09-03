@@ -523,6 +523,17 @@ else:
 
 
  ```
+ names = ["apple", "banana", "cherray", "kiwai", "mango"]
+check = "truelove"
+count = 0
+
+for n in names:
+ for j in n:
+  if (j in check):
+   count +=1
+   print(j,count)
+
+
 a = [1,2,3,4,5,6]
 
 for n in a:
