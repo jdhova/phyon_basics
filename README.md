@@ -425,7 +425,7 @@ for x in thisdict:
 
 ```
 
-#### Nested Loops in Dictionaries
+####  Nested Looping through Nested Dictionaries
 
 ```
 
@@ -572,6 +572,60 @@ def perfomOp(num1,num2,num3,operation='sum',message='here we'):
      print(message,operation,num1* num2 * num3)
     
 perfomOp(3,4,5,'sum')
+
+
+def my_function(fname):
+  print(fname + " Refsnes")
+
+
+ ```
+
+ #### Functions with Arguements
+
+ ```
+
+def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("Emil", "Refsnes")
+my_function("May", "coleman")
+my_function("James", "Anderson")
+
+
+
+ ```
+
+ #### Functions with Args
+
+ ```
+
+ def my_function(*kids):
+  print("The youngest child is " + kids[2])
+
+my_function("James", "Kelly", "Linus")
+
+
+
+def my_function(child3, child2, child1):
+  print("The youngest child is " + child3)
+
+my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus")
+
+
+def my_function(**kid):
+  print("His last name is " + kid["lname"])
+
+my_function(fname = "Tobias", lname = "Refsnes")
+
+
+def my_function(country = "Norway"):
+  print("I am from " + country)
+
+my_function("Sweden")
+my_function("India")
+my_function()
+my_function("Brazil")
+
 
  ```
  ### Classes
