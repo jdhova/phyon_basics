@@ -918,5 +918,27 @@ comparin Summer month to winter month.
 
 ```
 
+### QUIZ
+
+#### True Love Calculator
+```
+name = ["Jude OKAGU"]
+hname = ["Grace FISHER"]
+counter = 0
+
+cheker = "True Love"
+chekers = cheker.lower()
+
+name.extend(hname)
+
+for x in name:
+ for j in x.lower():
+  if(j in chekers):
+   print(j)
+  
+
+
+```
+
 
 
