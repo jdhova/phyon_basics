@@ -393,19 +393,19 @@ print(person['age']) // 25
  #### Loops in Dictionaries
 
  ```
- thisdict = {
-  "BRAND": "Ford",
-  "MODEL": "Mustang",
-  "YEAR": 1964
+thisdict = {
+ "BRAND": "Ford",
+ "MODEL": "Mustang",
+ "YEAR": 1964
 }
-thisdict.update({"year": 2020})
+thisdict.update({"cost": 20_000})
 thisdict["color"] = "red"
 
 
-thisdict["brand"] = "BENZ"
+thisdict["origin"] = "German"
 thisdict["model"] = "C-Class"
 print("New Dictionaty: ",thisdict)
-thisdict.pop("year")
+thisdict.pop("YEAR")
 thisdict.popitem()
 
 print("Final Value of Dictionaty: ",thisdict)
@@ -413,14 +413,15 @@ print("Final Value of Dictionaty: ",thisdict)
 
 
 for x,y in thisdict.items():
-  print("key :",x, "Val-Pair :",y)
-  
+ print("key :",x, "Val-Pair :",y)
+ 
 for x in thisdict.values():
-  print("Val-Pair :",x)
+ print("Val-Pair :",x)
 
-  
+ 
 for x in thisdict:
-  print("Keys :",x)
+ print("Keys :",x)
+
 
 ```
 
@@ -939,6 +940,8 @@ for x in name:
 
 
 ```
+
+#### find easier ways of wrtitng nested foreloops and nested if else statmemts
 
 
 
