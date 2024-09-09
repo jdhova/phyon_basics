@@ -628,6 +628,41 @@ my_function("Brazil")
 
 
  ```
+
+ #### Position Arguments
+
+ ```
+ def my_function(x, /):
+  print(x)
+
+my_function(3)
+
+```
+
+#### Keyword Only Arguements
+
+```
+def my_function(*, x):
+  print(x)
+
+my_function(x = 3)
+
+```
+#### Position Only and Keyword Only Arguements
+```
+def my_function(a, b, /, *, c, d):
+  print(a + b + c + d)
+
+my_function(5, 6, c = 7, d = 8)
+
+```
+
+#### Recursion PENDING
+
+
+### Lamdda 
+
+
  ### Classes
 
  ```
@@ -991,6 +1026,28 @@ for x in name:
   if(j in chekers):
    print(j)
   
+
+
+```
+#### Password Generator
+
+```
+
+import random
+
+
+letters = ["asds","Ddsd","wsdd","sssd","wsdf","Rsdds"] ### * num gives random letters
+
+letters2 = ["e","f","w","f"] ### * num gives random letters
+
+
+def password(numOfStrTimesN):
+ for n in letters:
+   return(random.choice(letters)*numOfStrTimesN + str(random.randrange(1, 100) * numOfStrTimesN))
+
+print(password(4))
+
+
 
 
 ```
