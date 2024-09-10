@@ -1016,15 +1016,26 @@ name = ["Jude OKAGU"]
 hname = ["Grace FISHER"]
 counter = 0
 
+
 cheker = "True Love"
 chekers = cheker.lower()
 
 name.extend(hname)
+names = name.copy()
+resultSet = set()
+resultList = []
 
-for x in name:
+combinednames = [x.replace(' ','') for x in names]
+
+
+for x in combinednames:
  for j in x.lower():
   if(j in chekers):
-   print(j)
+   resultSet.add(j)
+   resultList.extend(j)
+   counter+=1
+print("Unique Results: ",resultSet," All results: ",resultList," Total Counts: ",counter)
+  
   
 
 
