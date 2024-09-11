@@ -1054,7 +1054,7 @@ letters2 = ["e","f","w","f"] ### * num gives random letters
 
 def password(numOfStrTimesN):
  for n in letters:
-   return(random.choice(letters)*numOfStrTimesN + str(random.randrange(1, 100) * numOfStrTimesN))
+   return(random.choice(letters)*numOfStrTimesN + str(random.randrange(362, 7464) * numOfStrTimesN))
 
 print(password(4))
 
