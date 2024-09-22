@@ -1008,6 +1008,52 @@ comparin Summer month to winter month.
 
 ```
 
+### PYTHON OOP
+```
+
+Procedual Programing is the use of functions and the variable is freely moving and can be accessed so this means anyone can update. this alos means its not secured.
+Example we may want to make name accessible to everyone but make passwrod hidden, we can do this with OOP
+
+variables = Attributes
+Functions =  Methods
+
+class Ceo:
+   def __init__(self,vpname,vpdept,vpeducation):
+       self.name=vpname
+       self.dept=vpdept
+       self.education=vpeducation
+
+vp1=Ceo('Jude','Tech','Msc in DS')
+vp2=Ceo('Grace','Finance','Msc in Finance')
+vp3=Ceo('Jayden','Operations','Msc in Business')
+
+print(vp1.name,vp2.dept,vp3.education)
+
+
+class Test:
+    pi = 3333
+
+    def __init__(self,distance,radius):
+        self.distance = distance
+        self.radius = radius
+        # self.pie = pie
+
+    def peri(self,pie,dist):
+        return pie * dist
+
+    def area(self,pie,red):
+        return pie * (red * red)
+
+cirProp = Test(20,10)
+
+print(f"cirl is {Test.pi}")
+print (cirProp.peri(100,10))
+print(cirProp.area(100,20))
+
+
+```
+
+
 ### QUIZ
 
 #### True Love Calculator
