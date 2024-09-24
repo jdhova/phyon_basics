@@ -1051,6 +1051,56 @@ print (cirProp.peri(100,10))
 print(cirProp.area(100,20))
 
 
+
+```
+
+### OOP CLASSES
+
+```
+
+class Bank:
+    def __init__(self,holdername,holderbalance):
+        self.name = holdername
+        self.balance = holderbalance
+
+    def Deposit(self,amount):
+        self.balance =  self.balance + amount
+        return (f'Congratulations {self.name} you just Deposited {amount} and your balance is {self.balance}')
+
+
+    def Withdraw(self,amount):
+        if(self.balance > amount):
+            self.balance = self.balance - amount
+            return (f'Congratulations {self.name} you just withdrawn {amount} and your balance is {self.balance}')
+        else:
+            return (f' Hi {self.name}  you just  tried withdrawing this {amount} However this is your balance {self.balance}')
+
+
+
+
+Judeacct = Bank('Jude',300)
+
+Grceacct = Bank('Grace',800)
+
+
+print( Judeacct.Deposit(30))
+print( Judeacct.Withdraw(5000))
+
+
+print( Grceacct.Deposit(5000))
+print( Grceacct.Withdraw(34))
+
+
+def __str__
+
+```
+
+#### Inheritance in OOP
+
+```
+
+
+
 ```
 
 
@@ -1103,7 +1153,6 @@ def password(numOfStrTimesN):
    return(random.choice(letters)*numOfStrTimesN + str(random.randrange(362, 7464) * numOfStrTimesN))
 
 print(password(4))
-
 
 
 
