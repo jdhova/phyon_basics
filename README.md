@@ -69,6 +69,8 @@ x = bytearray(5)      bytearray
 
  ### LIST SETS TUPLES AND DICTIONARIES
 
+ ![alt text](image.png)
+
  ```
  List is a collection which is ordered and changeable. Allows duplicate members.
 Tuple is a collection which is ordered and unchangeable. Allows duplicate members.

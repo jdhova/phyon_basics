@@ -5,15 +5,24 @@
 # ####
 # ###
 
-fruits = ['apple', 'banana', 'cherry']
-cities = ['houston', 'dallas', 'austin']
-cars = ["benz","bmw","audi","honda"]
-num = [1,2,3]
 
-fruits.append(cars)
-cities.extend(cars) 
-print(fruits)  ['apple', 'banana', 'cherry', ['benz', 'bmw', 'audi', 'honda']]
-print(cities)  ['houston', 'dallas', 'austin', 'benz', 'bmw', 'audi', 'honda']
+
+# mysets = {'juud','cole'}
+# sets = {2,3,4}
+# sets2 = {4,3,2}
+
+# print(mysets,sets2) 
+
+# sets2 = {4,3,2,2,2,2,2,2,2,2,2,2}
+# print(sets2)
+
+my_turple = (1,2,3,3)
+
+print(my_turple)
+
+
+# print(fruits)  ['apple', 'banana', 'cherry', ['benz', 'bmw', 'audi', 'honda']]
+# print(cities)  ['houston', 'dallas', 'austin', 'benz', 'bmw', 'audi', 'honda']
 
 # print(len(cities))  returns 7
 # print(len(fruits))   returns 4
