@@ -303,10 +303,10 @@ print(set7)
 
  ### TUPLES
 
- #### TUPLES are  mutable but can be updated with inxed, TUPLES dont allow Index,  TUPLES can not be updated by the Index, TUPLES does not allow duplicate Values
+ #### TUPLES are  not mutable and can not be updated with inxed, TUPLES dont allow Index,  TUPLES can not be updated by the Index, however TUPLES  allow duplicate Values
  ```
 
- Turples are more like variables with different values, this can not be changed howwcer they have index.
+ Turples are more like variables witwhich allow duplicate values, this can not be changed because  they have indexing.
 
  turples can be covarted to list with lists() and convarted to tuple with tuple()
 my_turple = (1,2,3)

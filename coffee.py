@@ -4,8 +4,8 @@
 # ####
 # ####
 # ###
-
-
+for i in range(4):
+    print(i)
 
 # mysets = {'juud','cole'}
 # sets = {2,3,4}
@@ -16,9 +16,9 @@
 # sets2 = {4,3,2,2,2,2,2,2,2,2,2,2}
 # print(sets2)
 
-my_turple = (1,2,3,3)
+# my_turple = (1,2,3,3)
 
-print(my_turple)
+# print(my_turple)
 
 
 # print(fruits)  ['apple', 'banana', 'cherry', ['benz', 'bmw', 'audi', 'honda']]
