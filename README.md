@@ -69,7 +69,7 @@ x = bytearray(5)      bytearray
 
  ### LIST SETS TUPLES AND DICTIONARIES
 
- ![alt text](image.png)
+ ![alt text](image-1.png)
 
  ```
  List is a collection which is ordered and changeable. Allows duplicate members.
